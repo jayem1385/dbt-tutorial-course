@@ -21,7 +21,7 @@ SELECT
 	od.delivered_at AS order_delivered_at,
 	od.returned_at AS order_returned_at,
 	od.status AS order_status,
-	od.num_items_ordered,
+	od.num_of_item AS num_items_ordered,
 
 	-- Metrics on an order level
 	om.total_sale_price,
